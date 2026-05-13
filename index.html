@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lower Body Stretching Flow</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="app">
+      <header>
+        <h1>Lower Body Stretching Routine</h1>
+        <p id="stepMeta">Step 1 of 13</p>
+      </header>
+
+      <section class="video-wrap">
+        <iframe
+          id="ytPlayer"
+          src=""
+          title="Stretching Video"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+        ></iframe>
+      </section>
+
+      <section class="info-panel">
+        <h2 id="exerciseName"></h2>
+        <div class="timer" id="timer">00:00</div>
+        <p id="exerciseHint">Watch the movement and hold the stretch with calm breathing.</p>
+      </section>
+
+      <section class="controls">
+        <button id="nextBtn" disabled>Next</button>
+      </section>
+
+      <section class="progress-panel">
+        <h3>Routine Progress</h3>
+        <ol id="exerciseList"></ol>
+      </section>
+
+      <section class="finish hidden" id="finishSection">
+        <h3>Great job! 🎉</h3>
+        <p>You completed all lower body stretches.</p>
+        <a id="finalLink" href="https://herbalife-smart-wellness-studio.my.canva.site/page-4" target="_blank" rel="noopener noreferrer">Go to Main Website</a>
+      </section>
+    </main>
+
+    <script src="app.js"></script>
+  </body>
+</html>
